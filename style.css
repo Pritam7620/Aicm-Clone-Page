@@ -6,16 +6,26 @@
 
 header{
 display: flex;
-justify-content: space-around;
-height: 10vh;
+justify-content: space-between;
+height: 24vh;
 align-items: center;
-margin: 2vh;
+padding: 0 12vw;
 background: transparent;
 width: 100%;
-position: fixed;
+position: relative;
+
 
 }
+.main-video{
+position: absolute;
+top: 0;
+width: 100%;
+z-index: -9999;
+}
 
+.head-first img{
+  height: 6vh;
+}
 a{
   
   text-decoration: none;
@@ -25,32 +35,74 @@ a{
  display: flex;
  gap: 4vh;
  
- transition: all 5s ease-in-out;
 }
 .head-second a{
-  font-weight: 800;
+  font-weight: bold;
 color: rgb(3, 9, 48);
 font-family: Arial, Helvetica, sans-serif;
 }
-
+.head-second i{
+   transition: all 0.5s ease-in-out;
+}
 .head-second a:hover i{
 transform: rotate(180deg);
-}
 
+
+}
+.head-second a:hover{
+  color: #bb0a89;
+}
 
 .head-third a{
   font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
+  font-weight: bold;
 color: rgb(3, 9, 48);
+border-radius: 2vh ;
+padding: 16px;
+background-color: #FFFFFF;
+
 }
 
 .head-third a:hover{
-padding: 10px;
-background-color: rgb(219, 212, 203);
-border-radius: 2vh ;
+transition: all 0.5s ease-in-out;
+background: linear-gradient(160deg, #6c1ab2 , #d14fa0);
+color: #FFFFFF;
 
 }
 
+
+.knowledge:hover .KnowledgeBase-cointainer{
+  display: flex;
+  color: #FFFFFF;
+}
+
+.knowledge{
+
+   position: relative;
+
+}
+
+.KnowledgeBase-cointainer{
+position: absolute;
+height: auto;
+width: 12vw;
+background-color: rgb(232, 237, 234);
+border: 2px solid rgb(37, 189, 171);
+border-radius: 8px;
+top: 100%;
+display: none;
+color: #FFFFFF;
+left: 0;
+padding: 1vh;
+display: none;
+flex-direction: column;
+gap: 2vh;
+
+}
+
+.KnowledgeBase-cointainer a:hover{
+ color: rgb(3, 9, 48);
+}
 .head-four{
 display: none;
 }
@@ -75,6 +127,7 @@ a{
   display: block;
    font-weight: 800;
 color: rgb(3, 9, 48);
+
 font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -89,4 +142,50 @@ font-family: Arial, Helvetica, sans-serif;
 display: block;
 }
 
+}
+
+main{
+  height: 76vh;
+padding: 0vh 20vh;
+-webkit-box-shadow: inset 1px -100px 21px 0px #FFFDF5; 
+box-shadow: inset 1px -100px 21px 0px #FFFDF5;
+}
+
+.maindiv h1{
+  font-weight: bold;
+  font-size: 400%;
+  font-family: Arial, Helvetica, sans-serif;
+   color: rgb(3, 9, 48);
+   letter-spacing: 0.00735em;   
+
+}
+
+.maindiv p{
+  font-family: Arial, Helvetica, sans-serif;
+
+  letter-spacing: 0.01071em;
+    color: rgb(3, 9, 48);
+        font-size: 20px;
+    font-weight: 500;
+
+
+}
+.searchAicm{
+  text-align: center;
+}
+.searchAicm a{
+  position: relative;
+  top: 16vh;
+  border-radius: 20px;
+background-color: rgb(3, 9, 48);
+color: #d9cdcd;
+font-family: Arial, Helvetica, sans-serif;
+padding: 2vh 6vh;
+font-weight: 200;
+}
+
+
+.categories{
+  height: 100vh;
+  color: #FFFFFF;
 }
