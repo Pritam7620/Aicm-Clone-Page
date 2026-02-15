@@ -509,3 +509,59 @@ cursor: pointer;
 }
 
 /*token utiity*/
+
+
+.token{
+
+display: flex;
+justify-content: center;
+}
+
+.token-1{
+
+height: 600px;
+width: 600px;
+border: 1px solid red;
+}
+.token-1 h4{
+  font-size: 400%;
+  color: #030930;
+     margin-left: 16px;
+}
+
+
+.token-1 p{
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    max-width: 550px;
+    margin-bottom: 24px;
+    text-align: left;
+    margin-left: inherit;
+    font-weight: bold ;
+    margin-right: inherit;
+       margin-left: 16px;
+       
+}
+.link-div{
+  padding: 12px 14px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 67px, rgba(0, 0, 0, 0.08) 0px 1px 2px;
+  width: 100%;
+    max-width: 200px;
+    border-radius: 12px;
+   margin-left: 16px;
+}
+
+.token-2{
+
+height: 600px;
+width: 600px;
+border: 1px solid red;
+}
+
+.token-2 img{
+  padding: 30px;
+}
+
+
