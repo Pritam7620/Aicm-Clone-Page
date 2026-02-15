@@ -322,7 +322,7 @@ font-weight: bold;
 .List-container{
 display: flex;
 gap: 28px;
-  
+  cursor: pointer;
 animation: animation-box 10.9s linear infinite;
 }
 .List-child{
@@ -515,13 +515,16 @@ cursor: pointer;
 
 display: flex;
 justify-content: center;
+
 }
 
 .token-1{
 
 height: 600px;
 width: 600px;
-border: 1px solid red;
+background-color: #FFFFFF;
+border-radius: 12px;
+
 }
 .token-1 h4{
   font-size: 400%;
@@ -543,6 +546,66 @@ border: 1px solid red;
        margin-left: 16px;
        
 }
+
+.card1{
+display: flex;
+align-items: center;
+
+}
+
+.Card1-child{
+  display: flex;
+  align-items: center;
+  height:80px;
+  gap: 12px;
+  background-color: #f6f8f9;
+  padding: 16px;
+border: 2px solid #9acdf7;
+margin-right: 16px;
+font-size: larger;
+border-radius: 16px;
+}
+
+.card2{
+display: flex;
+align-items: center;
+
+  
+}
+.Card2-child{
+  margin-top: 12px;
+    display: flex;
+  align-items: center;
+  height:80px;
+  gap: 12px;
+  background-color: #edf3f6;
+  padding: 16px;
+border: 3px solid #9acdf7;
+margin-right: 16px;
+font-size: larger;
+border-radius: 16px;
+}
+
+
+.card3{
+display: flex;
+align-items: center;
+}
+
+.Card3-child{
+  margin-top: 12px;
+    display: flex;
+  align-items: center;
+  height:80px;
+  gap: 12px;
+  background-color: #edf3f6;
+  padding: 16px;
+border: 3px solid #9acdf7;
+margin-right: 16px;
+font-size: larger;
+border-radius: 16px;
+
+}
 .link-div{
   padding: 12px 14px;
   background-color: #ffffff;
@@ -551,17 +614,90 @@ border: 1px solid red;
     max-width: 200px;
     border-radius: 12px;
    margin-left: 16px;
+   margin-top: 16px;
+   
+}
+
+.link-div img{
+  background: transparent;
+cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .token-2{
 
 height: 600px;
 width: 600px;
-border: 1px solid red;
+background-color: #FFFFFF;
+border-radius: 12px;
 }
 
 .token-2 img{
   padding: 30px;
+
+}
+
+/*roadmap*/
+
+.road{
+  display: flex;
+  justify-content: center;
+}
+.roadmap{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+width: 100%;
+max-width: 50%;
+
+
+}
+
+.roadmap h2{
+  font-size: 80px;
+  font-weight: normal;
+  color: #030930;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.roadmap p{
+  text-align: center;
+  color: #030930;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.5;
+  word-spacing: 2px;
+  margin-top: 16px;
+ font-weight: bold;
 }
 
 
+.rbutton{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+.rbtn{
+    padding: 0.75rem 1.5rem;
+    margin: 0px 0.5rem;
+    border: none;
+    border-radius: 8px;
+   background-color: #666666;
+    color: rgb(64, 14, 179);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.rbtn:hover{
+   background-color: rgb(10, 16, 56);
+}
+.rbtn button{
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #FFFFFF;
+}
+/*roadmap*/
